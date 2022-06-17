@@ -27,12 +27,25 @@
         font-family: 'Quicksand', sans-serif; 
         background-color: var(--cartel);
     }
+
+    p{
+    display: block;
+    color: greenyellow;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: var(--lg);
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
     .cards-container {
-            display: grid;
+            display: flex;
+            
             grid-template-columns: repeat(auto-fill, 240px);
             gap: 20px;
-            place-content: center;
+            place-content: space-evenly;
             justify-self: center;
+
 
         }
     .cards-container .product-card p:hover{
@@ -44,6 +57,7 @@
         border-radius: 8px;
         padding: 5px 4px 0 5px;
         background-color: var(--black);
+        margin-top: 20px;
     }
     .product-card:hover{
         background-color: #2D231E;
@@ -102,6 +116,105 @@
     <section class="main-container">
 
         <div class="cards-container">
+
+            <div class="frutas">
+                <p>Frutas</p>
+
+                <div class="product-card">
+                    <img src= "https://images.pexels.com/photos/1093038/pexels-photo-1093038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="banana">
+                      <div class="product-info">
+                          <div>
+                              <p>Bananas</p>
+                              <p>Kg $50</p>
+                          </div>
+                          <figure>
+                              <img src="./bt_add_to_cart.svg" alt="">
+                           </figure>
+                      </div>
+                </div>
+
+                <div class="product-card">
+                    <img src= "https://images.pexels.com/photos/1131079/pexels-photo-1131079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="manzana roja">
+                      <div class="product-info">
+                          <div>
+                              <p>Manzana roja</p>
+                              <p>Kg $60</p>
+                          </div>
+                          <figure>
+                              <img src="./bt_add_to_cart.svg" alt="">
+                           </figure>
+                      </div>
+                </div>
+
+                <div class="product-card">
+                    <img src= "https://images.pexels.com/photos/290312/pexels-photo-290312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="manzana verde">
+                      <div class="product-info">
+                          <div>
+                              <p>Manzana verde</p>
+                              <p>Kg $65</p>
+                          </div>
+                          <figure>
+                              <img src="./bt_add_to_cart.svg" alt="">
+                           </figure>
+                      </div>
+                </div>
+
+                <div class="product-card">
+                    <img src= "https://images.pexels.com/photos/2067574/pexels-photo-2067574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="pera">
+                      <div class="product-info">
+                          <div>
+                              <p>Pera</p>
+                              <p>Kg $70</p>
+                          </div>
+                          <figure>
+                              <img src="./bt_add_to_cart.svg" alt="">
+                           </figure>
+                      </div>
+                </div>
+
+                <div class="product-card">
+                    <img src= "https://images.pexels.com/photos/2294477/pexels-photo-2294477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="naranja">
+                      <div class="product-info">
+                          <div>
+                              <p>Naranja</p>
+                              <p>Kg $50</p>
+                          </div>
+                          <figure>
+                              <img src="./bt_add_to_cart.svg" alt="">
+                           </figure>
+                      </div>
+                </div>
+
+                <div class="product-card">
+                    <img src= "https://images.pexels.com/photos/327098/pexels-photo-327098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="mandarina">
+                      <div class="product-info">
+                          <div>
+                              <p>Mandarina</p>
+                              <p>Kg $45</p>
+                          </div>
+                          <figure>
+                              <img src="./bt_add_to_cart.svg" alt="">
+                           </figure>
+                      </div>
+                </div>
+
+                <div class="product-card">
+                    <img src= "https://images.pexels.com/photos/3904800/pexels-photo-3904800.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="kiwi">
+                      <div class="product-info">
+                          <div>
+                              <p>Kiwi</p>
+                              <p>Kg $150</p>
+                          </div>
+                          <figure>
+                              <img src="./bt_add_to_cart.svg" alt="">
+                           </figure>
+                      </div>
+                </div>
+
+            </div>
+
+            <div class="verduras">
+                <p>Verduras</p>
 
             <div class="product-card">
                 <img src= "https://images.pexels.com/photos/38566/tomatoes-grape-tomatoes-salad-green-stuff-38566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Tomate Perita">
@@ -180,6 +293,21 @@
                        </figure>
                   </div>
             </div>
+
+            <div class="product-card">
+                <img src= "https://images.pexels.com/photos/2286776/pexels-photo-2286776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Papa">
+                  <div class="product-info">
+                      <div>
+                          <p>Papa</p>
+                          <p>Kg $80</p>
+                      </div>
+                      <figure>
+                          <img src="./bt_add_to_cart.svg" alt="">
+                       </figure>
+                  </div>
+            </div>
+
+        </div>
 
 
         </div>
